@@ -65,7 +65,7 @@ class emailer:
             )
 
 if __name__ == "__main__":
-    new_email = emailer("/root/Desktop/Projects/emailer", "hello world")
+    new_email = emailer("/root/Desktop/Projects/emailer", subject = "This is test mail")
     new_email.sendEmail(
     sender = "...",
     password = "...,
