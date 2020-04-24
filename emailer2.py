@@ -67,7 +67,7 @@ class emailer:
 if __name__ == "__main__":
     new_email = emailer("/root/Desktop/Projects/emailer", "hello world")
     new_email.sendEmail(
-    sender = "zeuson164@gmail.com",
-    password = "888Miles111",
-    receiver = "iam.o.plus@gmail.com"
+    sender = "...",
+    password = "...,
+    receiver = "..."
     )
