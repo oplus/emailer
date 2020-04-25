@@ -44,11 +44,13 @@ if __name__ == "__main__":
     pass
     """
     ###USAGE:
+    from emailer import emailer
+
     with open('product-announcement.html', 'r') as file:
         html = file.read()
+
     plain = "Hello World"
     subject = "Hi, this is the email subject"
-
     newMail = emailer(html = html, plain = plain, subject = subject)
     newMail.sendEmail(
     sender = "senderEmail@gmail.com",
